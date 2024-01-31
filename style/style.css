@@ -1,3 +1,8 @@
+body {
+    width: 1600px;
+    height: 920;
+    flex-shrink: 0;
+}
 .logo {
     color: #0A1B32;
     font-family:'Figtree', sans-serif;
@@ -25,6 +30,7 @@ nav li {
     line-height: 23.999px; /* 150% */
     letter-spacing: 0.32px;
 }
+
 .main-title {
     width: 100%;
     max-width: 495px;
@@ -70,3 +76,8 @@ nav li {
     letter-spacing: 0.32px;
     border: none;
 }
+section {
+    display: inline-block;
+}
+
+
