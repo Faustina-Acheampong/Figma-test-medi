@@ -1,3 +1,12 @@
+body {       
+    width: 1600px;
+    height: 920px;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    background-color: linear-gradient(180deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%); 
+    }
+
 #top-header{
     text-align: center;
 }
@@ -40,7 +49,7 @@ nav li {
     font-weight: 700;
     line-height: 23.999px; /* 150% */
     letter-spacing: 0.32px;
-    border: none;  
+    border: none;   
 }
 nav li a {
     display: inline-block;
@@ -111,5 +120,12 @@ img {
     align-items: center;
     flex-shrink: 0;
 }
-
+.main-button:hover {
+    color: crimson;
+    background-color: grey;
+}
+.navbar-btn:hover {
+    color: crimson;
+    background-color: grey;
+}
 
