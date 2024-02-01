@@ -122,10 +122,10 @@ img {
 }
 .main-button:hover {
     color: crimson;
-    background-color: grey;
+    background-color: lightskyblue;
 }
 .navbar-btn:hover {
     color: crimson;
-    background-color: grey;
+    background-color: lightblue;
 }
 
